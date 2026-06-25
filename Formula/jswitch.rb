@@ -7,10 +7,10 @@ class Jswitch < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/m1ggle/jswitch/releases/download/v0.1.0/jswitch-aarch64-apple-darwin.tar.gz"
-      sha256 "PUT_AARCH64_SHA256_HERE"
+      sha256 "97e72926dd4c59e18959bb82b8d97c1bbeb44b8459cfae5b76b624fc790c0b02"
     else
       url "https://github.com/m1ggle/jswitch/releases/download/v0.1.0/jswitch-x86_64-apple-darwin.tar.gz"
-      sha256 "PUT_X86_64_SHA256_HERE"
+      sha256 "97e72926dd4c59e18959bb82b8d97c1bbeb44b8459cfae5b76b624fc790c0b02"
     end
   end
 
