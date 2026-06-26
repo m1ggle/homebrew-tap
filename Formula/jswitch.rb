@@ -1,7 +1,7 @@
 class Jswitch < Formula
   desc "Fast Java version switcher written in Rust"
   homepage "https://github.com/m1ggle/jswitch"
-  version "0.1.0"
+  version "0.1.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   url "https://github.com/m1ggle/jswitch/releases/download/v0.1.0/jswitch-x86_64-apple-darwin.tar.gz"
